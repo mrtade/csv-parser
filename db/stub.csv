@@ -1,0 +1,21 @@
+orderId,customerId,item,quantity
+order9001,cx1001,blue shoes,10
+order9002,cx1002,red shoes,10
+order9003,cx1003,green shoes,10
+order9004,cx1004,red bag,10
+order9005,cx1005,blue bag,10
+order9006,cx1006,green bag,10
+order9007,cx1007,yellow ball,10
+order9008,cx1008,red ball,10
+order9009,cx1009,green ball,10
+order9010,cx1010,black jeans,10
+order9011,cx1011,red jeans,10
+order9012,cx1012,blue jeans,10
+order9013,cx1013,purple jeans,10
+order9014,cx1014,red jacket,10
+order9015,cx1015,red pants,10
+order9016,cx1016,blue jacket,10
+order9017,cx1017,red shoes,10
+order9018,cx1018,blue shoes,10
+order9019,cx1019,red shoes,10
+order9020,cx1020,green shoes,10

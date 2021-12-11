@@ -1,0 +1,47 @@
+{
+  "name": "csv_server",
+  "version": "1.0.0",
+  "description": "Import csv customer data to a database from a URL",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node_modules/.bin/tsc --watch",
+    "build": "node_modules/.bin/tsc --build",
+    "serve:dev": "nodemon dist/app.js",
+    "serve": "node dist/app.js",
+    "test:cov": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "type": "module",
+  "author": "Oluwaleke Tade",
+  "license": "ISC",
+  "engines": {
+    "node": ">=16.13.0"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@koa/router": "^10.1.1",
+    "csv-parse": "^4.16.3",
+    "got": "^11.8.2",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.1",
+    "mongodb": "^4.1.4",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "@types/koa": "^2.13.4",
+    "@types/koa__cors": "^3.0.3",
+    "@types/koa__router": "^8.0.9",
+    "@types/koa-bodyparser": "^4.3.4",
+    "@types/koa-json": "^2.0.20",
+    "@types/koa-logger": "^3.1.2",
+    "@types/node": "^16.11.7",
+    "dotenv": "^10.0.0",
+    "jest": "^27.3.1",
+    "nodemon": "^2.0.15",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.4.4"
+  }
+}
